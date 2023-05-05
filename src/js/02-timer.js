@@ -3,12 +3,10 @@ import 'flatpickr/dist/flatpickr.min.css';
 import Notiflix from 'notiflix';
 
 const startBtn = document.querySelector('[data-start]');
-const inputDate = document.querySelector('#datetime-picker');
 const daysTimer = document.querySelector('[data-days]');
 const hoursTimer = document.querySelector('[data-hours]');
 const minutesTimer = document.querySelector('[data-minutes]');
 const secondsTimer = document.querySelector('[data-seconds]');
-const currentDateTimer = new Date();
 let selectedDate;
 let intervalId;
 
